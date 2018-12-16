@@ -1,0 +1,36 @@
+baseURL = "https://pkiller.com"
+languageCode = "en-us"
+title = "pkiller's Blog"
+theme="redlounge"
+disqusShortname="pkiller"
+[params]
+	sidebartitle = "pkiller"
+	sidebartagline = "Peanut Killer~"
+	sidebarphoto = "/images/avatar.jpeg"
+
+[[menu.main]]
+    name = "Android"
+    url = "/android"
+
+[[menu.main]]
+    name = "Music"
+    url = "/music"
+
+[[menu.main]]
+    name = "About"
+    url = "/about"
+
+[[menu.social]]
+	pre = "<i class='fa fa-twitter'></i>"
+    url = "http://www.twitter.com/aronkou1"
+    identifier = "twitter"
+
+[[menu.social]]
+    pre = "<i class='fa fa-github'></i>"
+    url = "http://www.github.com/pkilller"
+    identifier = "github"
+
+[[menu.footer]]
+    name = "Blog"
+    url = "/posts"
+
